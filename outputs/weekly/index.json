@@ -1,0 +1,80 @@
+[
+  {
+    "project_name": "Zycus - Solvara S2P Implementation",
+    "project_manager": "Rohan Kapoor",
+    "project_stage": "Training Phase I",
+    "pct_complete": 0.44,
+    "as_of": "2026-07-02",
+    "scores": {
+      "schedule": 15.0,
+      "progress": 50.8,
+      "blockers": 100.0,
+      "sentiment": null
+    },
+    "composite_score": 45.5,
+    "rag": "Red",
+    "reasoning": {
+      "schedule": [
+        "PM-reported project-level Schedule Health is 'Red'."
+      ],
+      "progress": [
+        "Project is 44% complete against 59% of the planned timeline elapsed (behind by 15 points)."
+      ],
+      "blockers": [
+        "No On Hold tasks, At Risk flags, or blocker language detected in comments."
+      ],
+      "sentiment": [
+        "No free-text comments available to gauge stakeholder sentiment."
+      ],
+      "overrides": []
+    },
+    "task_counts": {
+      "not_started": 175,
+      "in_progress": 35,
+      "completed": 133,
+      "on_hold": 0
+    },
+    "source_file": "plans/Project_Plan_B.xlsx"
+  },
+  {
+    "project_name": "Zycus - Meridian S2P Implementation",
+    "project_manager": "Arjun Mehta",
+    "project_stage": "Configuration and Build phase",
+    "pct_complete": 0.71,
+    "as_of": "2026-07-02",
+    "scores": {
+      "schedule": 38.9,
+      "progress": 100,
+      "blockers": 91.5,
+      "sentiment": 66.7
+    },
+    "composite_score": 68.9,
+    "rag": "Amber",
+    "reasoning": {
+      "schedule": [
+        "60 tasks tagged Red and 146 tagged Yellow out of 327 tagged tasks.",
+        "Critical-path tasks are slipping by an average of 47.4 days.",
+        "PM-reported project-level Schedule Health is 'Green'."
+      ],
+      "progress": [
+        "Project is 71% complete against 57% of the planned timeline elapsed (ahead by 14 points)."
+      ],
+      "blockers": [
+        "3 task(s) are On Hold (0.6% of active tasks).",
+        "4 task(s) are explicitly flagged At Risk.",
+        "Comments/status fields contain 4 blocker-related mentions (e.g. pending, TBD, awaiting sign-off)."
+      ],
+      "sentiment": [
+        "Comment tone reads as positive (2 positive vs 1 negative signal words)."
+      ],
+      "overrides": []
+    },
+    "task_counts": {
+      "not_started": 194,
+      "in_progress": 15,
+      "completed": 255,
+      "on_hold": 3
+    },
+    "source_file": "plans/S2P_Project.xlsx"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "project_name": "Zycus - Solvara S2P Implementation",
+  "project_manager": "Rohan Kapoor",
+  "project_stage": "Training Phase I",
+  "pct_complete": 0.44,
+  "as_of": "2026-07-02",
+  "scores": {
+    "schedule": 15.0,
+    "progress": 50.8,
+    "blockers": 100.0,
+    "sentiment": null
+  },
+  "composite_score": 45.5,
+  "rag": "Red",
+  "reasoning": {
+    "schedule": [
+      "PM-reported project-level Schedule Health is 'Red'."
+    ],
+    "progress": [
+      "Project is 44% complete against 59% of the planned timeline elapsed (behind by 15 points)."
+    ],
+    "blockers": [
+      "No On Hold tasks, At Risk flags, or blocker language detected in comments."
+    ],
+    "sentiment": [
+      "No free-text comments available to gauge stakeholder sentiment."
+    ],
+    "overrides": []
+  },
+  "task_counts": {
+    "not_started": 175,
+    "in_progress": 35,
+    "completed": 133,
+    "on_hold": 0
+  },
+  "source_file": "plans/Project_Plan_B.xlsx"
+}
